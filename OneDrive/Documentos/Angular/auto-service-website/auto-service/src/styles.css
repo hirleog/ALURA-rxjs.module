@@ -1,0 +1,83 @@
+:root {
+  --background: #101010;
+  --background-datail: #000000;
+  --primary: #FF3D24;
+  --primary-dark: #b81500;
+
+  --secondary: #0f0f0f;
+  --secondary-transparent: #00000079;
+  --secondary-light: rgba(24, 24, 24, 0.986);
+  --light: #f0f0f0;
+  --medium: #cacacabd;
+  --dark: #a2a2a2;
+
+}
+
+html,
+body {
+  background-color: var(--background);
+}
+
+h1 {
+  font-family: 'Oxanium', sans-serif;
+  color: white;
+  font-size: 4em;
+}
+
+p {
+  color: var(--light);
+}
+
+
+.spacement {
+  margin-bottom: 8em !important;
+}
+
+/* ESTILOS PERSONALIZADOS  */
+
+.ui-button {
+  padding: 20px 45px;
+  display: inline-block;
+  background-color: var(--primary);
+  color: var(--light);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--heading-font-family);
+  border: none;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  transition: background-color .4s, transform .3s, color .3s;
+  transform: translateZ(0);
+  margin-right: 10px;
+
+}
+
+.ui-button:hover {
+  padding: 20px 45px;
+  display: inline-block;
+  background-color: var(--primary-dark);
+  color: var(--light);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--heading-font-family);
+  border: none;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  transition: background-color .4s, transform .3s, color .3s;
+  transform: translateZ(0);
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-family: 'Oxanium', sans-serif;
+    color: white;
+    font-size: 3em;
+  }
+}
